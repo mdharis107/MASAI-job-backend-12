@@ -1,4 +1,5 @@
-const { JobModel } = require("../Models/Job.model");
+const { JobModel } = require("../models/job.model");
+
 
 const addJobs = async (req, res) => {
   var utc = new Date().toJSON().slice(0, 10).replace(/-/g, "/");
