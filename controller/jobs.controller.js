@@ -1,4 +1,4 @@
-const { JobModel } = require("../models/job.model");
+const { JobModel } = require("../models/Job.model");
 
 
 const addJobs = async (req, res) => {
